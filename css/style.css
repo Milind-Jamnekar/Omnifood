@@ -48,19 +48,9 @@ body {
   color: #555;
 }
 
-.section-hero {
-  background-color: #fdf2e9;
-  padding: 9.6rem 0;
-}
-
-.hero {
-  max-width: 120rem;
-  margin: 0 auto;
-  display: grid;
-  gap: 9.6rem;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-}
+/**************************/
+/* GENERAL REUSE SECTION */
+/**************************/
 
 .heading-primary {
   font-size: 5.2rem;
@@ -69,16 +59,6 @@ body {
   color: #333;
   letter-spacing: -0.5px;
   margin-bottom: 2.4rem;
-}
-.hero-description {
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-bottom: 3.2rem;
-}
-
-.hero-img {
-  width: 100%;
-  min-width: 100px;
 }
 
 .btn:link,
@@ -120,6 +100,39 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+/**************************/
+/* Header section */
+/**************************/
+
+/**************************/
+/* Hero seection */
+/**************************/
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+
+.hero {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+}
+
+.hero-img {
+  width: 100%;
+  min-width: 100px;
 }
 
 .delivered-meals {
