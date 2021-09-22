@@ -85,12 +85,12 @@ body {
 
 .btn--outline:link,
 .btn--outline:visited {
-  background-color: #fff !important;
+  background-color: #fff;
   color: #555;
 }
 
 .btn--outline:hover,
-.btn--outline:visited {
+.btn--outline:active {
   background-color: #fdf2e9;
   color: #555;
 
@@ -119,6 +119,45 @@ body {
   height: 2.4rem;
 }
 
+/**************************/
+/* Navigation seection */
+/**************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+
+  font-size: 1.8rem;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #e67e22;
+}
+
+.nav-cta:link,
+.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  background-color: #e67e22;
+  border-radius: 9px;
+  color: #fdf2e9;
+}
+
+.nav-cta:hover,
+.nav-cta:active {
+  background-color: #cf711f;
+}
 /**************************/
 /* Hero seection */
 /**************************/
