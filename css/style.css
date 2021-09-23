@@ -57,6 +57,28 @@ body {
 /**************************/
 /* GENERAL REUSE SECTION */
 /**************************/
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.8rem;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
 
 .heading-primary {
   font-size: 5.2rem;
@@ -225,4 +247,14 @@ body {
 .delivered-description span {
   color: #cf711f;
   font-weight: 700;
+}
+
+/**************************/
+/* Hero seection */
+/**************************/
+
+.section-how {
+  background-color: #555;
+  font-size: 3rem;
+  color: #fff;
 }
