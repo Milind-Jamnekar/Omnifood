@@ -117,12 +117,20 @@
   border-bottom: 2px solid transparent;
 }
 
+/**************************/
+/* Helpers classes*/
+/**************************/
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
 
 .margin-botton-md {
   margin-bottom: 4.8rem !important;
+}
+
+.center-txt {
+  text-align: center;
 }
 
 strong {
