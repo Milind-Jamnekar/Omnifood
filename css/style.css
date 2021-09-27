@@ -430,37 +430,9 @@ body {
   display: block;
   width: 100%;
   filter: brightness(75%);
-  transition: filter 0.4s ease-out;
+  transition: filter 0.3s;
 }
 
 .gallery-item img:hover {
   filter: brightness(100%);
 }
-
-/* .gallery-item::after {
-  content: "<";
-  display: flex;
-  font-size: 1.8rem;
-  color: #fff;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  z-index: 2541999;
-  width: 5rem;
-  height: 5rem;
-  top: 38%;
-  left: -25px;
-  border-radius: 50%;
-  transform: scale(0);
-  /* transform: translate(-50%, -50%); */
-  background-color: #e67e22;
-  transition: transform 0.3s;
-  cursor: pointer;
-}
-
-.gallery-item:hover::after {
-  transform: scale(1.1);
-}
-
-.gallery-item::after {
-} */
