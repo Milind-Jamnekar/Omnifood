@@ -329,46 +329,6 @@ body {
   margin-bottom: 3.2rem;
 }
 
-.meal-lists {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.meal-list {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-
-.meal-icon {
-  color: #cf711f;
-  font-size: 2.4rem;
-}
-
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.4rem;
-  /* justify-content: center; */
-}
-
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.8rem;
-}
-
-.list-icon {
-  width: 3rem;
-  height: 3rem;
-  color: #e67e22;
-}
-
 .all-recipes {
   text-align: center;
   font-size: 1.8rem;
@@ -435,4 +395,107 @@ body {
 
 .gallery-item img:hover {
   filter: brightness(100%);
+}
+
+/**************************/
+/* Pricing seection */
+/**************************/
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.pricing-plan {
+  max-width: 75%;
+  border-radius: 12px;
+}
+
+.pricing-plan.starter {
+  border: 2px solid #fdf2e9;
+  padding: 4.6rem;
+  justify-self: end;
+}
+
+.pricing-plan.complete {
+  background-color: #fdf2e9;
+  padding: 4.6rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan.complete::after {
+  content: "Best Value";
+  position: absolute;
+  padding: 0.8rem 8rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  top: 6%;
+  right: -18%;
+  transform: rotate(45deg);
+  background-color: #ffd43b;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #cf711f;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 3.2rem;
+}
+.plan-price {
+  font-size: 6.2rem;
+  color: #525252;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+  font-size: 3.4rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+.plan-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+.plan-signup {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/**************************/
+/* Feature classes*/
+/**************************/
+
+.feature-icon {
+  border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+  padding: 1.6rem;
+  color: #e67e22;
+  background-color: #fff2e7;
+  margin-bottom: 3.2rem;
+}
+
+.feature h4 {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.feature p {
+  font-size: 1.8rem;
+  line-height: 1.6;
 }
