@@ -1,6 +1,12 @@
 /**************************/
 /* GENERAL REUSE SECTION */
 /**************************/
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
 .container {
   max-width: 120rem;
   margin: 0 auto;
@@ -66,7 +72,7 @@
   font-size: 1.8rem;
   color: #8a4c14;
 }
-
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -76,6 +82,10 @@
   border-radius: 9px;
   font-weight: 600;
   transition: all 0.3s;
+
+  /* For button  */
+  border: none;
+  color: inherit;
 }
 
 .btn--full:link,
@@ -102,6 +112,18 @@
 
   /* Trick to add border to avoid layout inconcistancy */
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn-form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn-form:hover {
+  background-color: #fdf2e9;
+  color: #555;
 }
 
 .link:link,
