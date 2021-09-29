@@ -655,3 +655,13 @@ body {
 .footer-nav a:hover {
   color: #555;
 }
+
+.author {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.2rem;
+  background-color: #eb984c;
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+}
