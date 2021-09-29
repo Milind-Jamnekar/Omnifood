@@ -502,97 +502,11 @@ body {
 }
 
 /**************************/
-/* Pricing seection */
+/* cta seection */
 /**************************/
 
-/* .section-cta {
-  padding: 9.6rem 0;
-}
-
-.cta {
-  display: flex;
-  overflow: hidden;
-  color: #45260a;
-  box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 /15%);
-  border-radius: 1.4rem;
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-}
-
-.cta-text-box {
-  padding: 3.2rem;
-  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
-}
-
-.cta-heading {
-  font-size: 4.4rem;
-  line-height: 1.2;
-  margin-bottom: 3.2rem;
-}
-
-.cta-text {
-  font-size: 1.8rem;
-  line-height: 1.8;
-  margin-bottom: 4.8rem;
-}
-
-.cta-inputs {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3.2rem;
-}
-
-.input {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.input label {
-  font-size: 1.6rem;
-  font-weight: 500;
-}
-
-.input input,
-.input select {
-  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
-  outline: none;
-  border-radius: 1rem;
-  font-family: inherit;
-  border-radius: 9px;
-  background-color: #fde3ce;
-  border: none;
-  padding: 1.2rem;
-  font-size: 1.8rem;
-}
-
-.cta-btn {
-  font-weight: 600;
-  align-self: end;
-  border-radius: 9px;
-  padding: 1.2rem;
-  font-size: 1.8rem;
-  color: #fde3ce;
-  background-color: #45260a;
-}
-
-.cta-img-box {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(235, 151, 78, 0.35),
-    rgba(230, 125, 34, 0.35)
-  );
-
-  background-size: cover;
-  background-position: center;
-}
-
-.cta-img-box img {
-  width: 100%;
-  height: 100%;
-} */
-
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 8.4rem 0 12.8rem;
 }
 
 .cta {
@@ -651,12 +565,6 @@ body {
   color: #aaa;
 }
 
-.cta-form select {
-}
-
-.cta-form button {
-}
-
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
@@ -671,4 +579,79 @@ body {
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+/**************************/
+/* footer seection */
+/**************************/
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links ion-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.copyright {
+  margin-top: auto;
+  font-size: 1.4rem;
+  color: #767676;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.address-col a,
+.footer-nav a,
+.logo-col a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+}
+
+.footer-nav a:hover {
+  color: #555;
 }
