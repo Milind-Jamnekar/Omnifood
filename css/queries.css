@@ -261,15 +261,15 @@ nsted we assume that 1rem = 1em = 16px*/
     height: 1.2rem;
   }
 
-  .step-img-box:nth-child(2) {
+  .box:nth-child(2) {
     grid-row: 1;
   }
 
-  .step-img-box:nth-child(6) {
+  .box:nth-child(6) {
     grid-row: 5;
   }
 
-  .step-img-box {
+  .box {
     transform: translateY(3.2rem);
   }
 
